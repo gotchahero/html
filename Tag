@@ -1,1 +1,5 @@
+//https://www.advancedwebranking.com/seo/html-study/#overview
+//위의 연구에 따르면 실질적으로 사용되는 HTML Tag의 수는 25개 남짓이다.(총 130여개 중에)
+
+//따라서 자주 쓰이는 태그들만 기억하고, 나머지는 찾아 쓰자!
 
