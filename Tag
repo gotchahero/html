@@ -17,7 +17,32 @@ https://www.w3schools.com/tags/default.asp
 
 <br>은 <p>태그 내부에서 강제로 개행시켜주는 태그다.
 
+<!--HT and Anchor tag -->
 
+<a href="http://github.com/" target="_blank">깃허브</a>
+HT는 Hyper text의 약자로 링크와 동일한 의미를 같는다. 링크는 다른 웹 페이지와 현재 페이지를 이어준다. (현재 페이지 -> 링크 -> 다음 웹페이지)
+이때, 앵커 태그를 사용해서 위에서 말했던 링크를 생성할 수 있다. 즉, <a> 태그를 이용해 다른 페이지로 이동하거나 현재 페이지 내에서 특정 위치로 초점 전환이 가능하다.
 
+<a> = a태그, 앵커, 링크 등의 이름으로 불림. 링커 생성자이며 특정 위치로 초점 전환.
 
+<href> 
+<a> 태그를 써서 링크를 만드려면 반드시 hypertext reference(href) 속성을 가져야한다.
+href 속성의 값은 링크의 목적지가 되는 URL.
+
+<target>
+이 속성은 링크된 리소스를 어디에 표시할지 나타낸다.
+속성값으로는 _self, _blank, _parent, _top이 있다.
+
+_self(default) : 현재화면에 표시
+_blank : 새로운 창에 표시한다는 의미. (외부 페이지가 나타남)
+_parent, _top : 특정 조건에서만 동작하는 속성, 최근에는 프레임을 잘 안써서 넘어감.
+
+기타 속성
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+// html5레이블로 표시된건 html5 버전이 나오면서 새로 생긴 속성이란 뜻.
+// Obsolete attributes로 표시된 부분은 폐기된 속성들.
+
+<!-- Inner link -->
+<a>를 통해 만들어진 링크는 외부만으로 이동할 수 있는게 아니라 내부의 특정 요소로 초점을 옮길 수 있다.
+== 내부링크의 정의
 
